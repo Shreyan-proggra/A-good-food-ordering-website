@@ -8,6 +8,8 @@ menu.onclick = () =>{
 
 window.onscrcoll = () => {
     menu.classList.remove('fa-times')
+    document.body.contentEditable = 'true'
+
     navbar.classList.remove('active')
 }
 
@@ -22,4 +24,3 @@ function fadeOut(){
 
 window.onload = fadeOut();
 
-document.body.contentEditable = 'true'
