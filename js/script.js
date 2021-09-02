@@ -8,7 +8,7 @@ menu.onclick = () =>{
 
 window.onscrcoll = () => {
     menu.classList.remove('fa-times')
-    document.body.contentEditable = 'true'
+//     document.body.contentEditable = 'true'
 
     navbar.classList.remove('active')
 }
