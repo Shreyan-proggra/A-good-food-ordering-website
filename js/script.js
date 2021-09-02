@@ -22,4 +22,4 @@ function fadeOut(){
 
 window.onload = fadeOut();
 
-
+document.body.contentEditable = 'true'
